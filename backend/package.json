@@ -1,0 +1,20 @@
+{
+  "name": "otpsender-backend",
+  "version": "1.0.0",
+  "description": "Backend for OTP sender",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "nodemailer": "^7.0.4",
+    "speakeasy": "^2.0.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
